@@ -1,0 +1,10 @@
+burger=document.querySelector('#burger');
+navlist=document.querySelector('.nav-list');
+navbar=document.querySelector('.navbar');
+rightnav=document.querySelector(".right-nav")
+burger.addEventListener("click",()=>
+{
+navlist.classList.toggle('o-class-resp');
+rightnav.classList.toggle('o-class-resp');
+navbar.classList.toggle('h-class-resp');
+})
