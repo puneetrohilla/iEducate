@@ -89,4 +89,9 @@
         margin-top: -68px;
     }
   }
+@media  screen and (max-width:660px) {
+    .contact{
+      height: 60vh;
+    }
+    }
   
