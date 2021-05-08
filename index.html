@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="responsive.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>iEducate</title>
   </head>
   <body>
+    
+        <!-- .........................  Navbar............................... -->
+
+    
     <nav class="navbar background h-class-resp">
       <ul class="nav-list o-class-resp">
         <div class="logo"><img src="laptop.jpg" alt="logo" /></div>
@@ -33,7 +38,10 @@
         <div class="line"></div>
       </div>
     </nav>
-    <section class="section background">
+    
+        <!-- ......................... Mid Section ...........................................................  -->
+
+        <section class="section background">
       <div class="paras">
         <div class="firstHalf text-big">The future of Education is here</div>
         <div class="firstSemiHalf text-small">
@@ -45,7 +53,7 @@
       </div>
       <div class="secondHalf"><img src="edu4.jpg" alt="" /></div>
     </section>
-    <div class="paras2" id="About">
+    <div class="paras2" id="About" data-aos="fade-left>
       <div class="para1">
         <div class="headingOne text-big">The End Of Your Search Is Here</div>
         <p class="text-small justifying">
@@ -62,7 +70,7 @@
       </div>
       <div class="para2"><img src="edu1.jpg" alt="" /></div>
     </div>
-    <div class="paras3">
+    <div class="paras3" data-aos="fade-right>
       <div class="para1">
         <div class="headingOne text-big">Transforming Education In India</div>
         <p class="text-small justifying">
@@ -77,7 +85,7 @@
       </div>
       <div class="para2"><img src="edu2.jpg" alt="" /></div>
     </div>
-    <div class="paras4">
+    <div class="paras4" data-aos="fade-left>
       <div class="para1">
         <div class="headingOne text-big">Let's Grow Together</div>
         <p class="text-small justifying">
@@ -94,8 +102,11 @@
       </div>
       <div class="para2"><img src="edu3.jpg" alt="" /></div>
     </div>
+    
+        <!-- ................................ contact ................................... / -->
+
     <section class="contact" id="Contact">
-      <div class="form">
+      <div class="form" data-aos="fade-right>
         <div class="contactTopHead">Contact Us</div>
         <input type="text" name="name" id="" placeholder="Enter Your Name" />
         <input type="text" name="Phone" id="" placeholder="Enter Your Phone" />
@@ -114,5 +125,12 @@
       Copyright &copy;2021 www.iEducate.com | All Rights Reserved
     </footer>
     <script src="script.js"></script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset:220,
+      delay: 0, 
+      duration: 1000,
+    });
   </body>
 </html>
