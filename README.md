@@ -1,2 +1,2 @@
 # iEduate
-https://puneetrohilla.github.io/iEduate/
+https://puneetrohilla.github.io/iEducate/
